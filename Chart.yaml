@@ -2,7 +2,7 @@ apiVersion: v2
 name: godbox
 description: Secure sandboxing system for untrusted code execution
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: "2.4.0"
 annotations:
   category: Security
