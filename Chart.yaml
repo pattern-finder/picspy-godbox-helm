@@ -16,5 +16,6 @@ keywords:
 maintainers:
   - email: nathanael.dmc@outlook.fr
     name: Nathanael Demacon
+icon: https://i.imgur.com/bztIDtM.png
 sources:
   - https://github.com/quantumsheep/godbox-helm
