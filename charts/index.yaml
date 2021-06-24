@@ -5,7 +5,32 @@ entries:
       category: Security
     apiVersion: v2
     appVersion: 2.4.0
-    created: "2021-06-23T22:29:59.580521+02:00"
+    created: "2021-06-24T02:13:46.397396+02:00"
+    description: Secure sandboxing system for untrusted code execution
+    digest: cf75f649088be887278ec4a4392bd0df361cc6701b2a52f5f5e0e229a37efc63
+    icon: https://i.imgur.com/bztIDtM.png
+    keywords:
+    - godbox
+    - isolate
+    - sandboxing
+    - isolation
+    - security
+    - api
+    maintainers:
+    - email: nathanael.dmc@outlook.fr
+      name: Nathanael Demacon
+    name: godbox
+    sources:
+    - https://github.com/quantumsheep/godbox-helm
+    type: application
+    urls:
+    - https://quantumsheep.github.io/godbox-helm/charts/godbox-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      category: Security
+    apiVersion: v2
+    appVersion: 2.4.0
+    created: "2021-06-24T02:13:46.396708+02:00"
     description: Secure sandboxing system for untrusted code execution
     digest: 613dae2d758991e65fd2fe312af862ba73162f93698300a70a513f61984938ca
     keywords:
@@ -25,4 +50,4 @@ entries:
     urls:
     - https://quantumsheep.github.io/godbox-helm/charts/godbox-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-23T22:29:59.578881+02:00"
+generated: "2021-06-24T02:13:46.395776+02:00"
