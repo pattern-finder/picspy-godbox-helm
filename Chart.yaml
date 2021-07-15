@@ -3,7 +3,7 @@ name: godbox
 description: Secure sandboxing system for untrusted code execution
 type: application
 version: 0.1.1
-appVersion: "2.4.0"
+appVersion: "2"
 annotations:
   category: Security
 keywords:
