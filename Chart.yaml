@@ -1,0 +1,21 @@
+apiVersion: v2
+name: godbox
+description: Secure sandboxing system for untrusted code execution
+type: application
+version: 0.2.0
+appVersion: "2"
+annotations:
+  category: Security
+keywords:
+  - godbox
+  - isolate
+  - sandboxing
+  - isolation
+  - security
+  - api
+maintainers:
+  - email: nathanael.dmc@outlook.fr
+    name: Nathanael Demacon
+icon: https://i.imgur.com/bztIDtM.png
+sources:
+  - https://github.com/quantumsheep/godbox-helm

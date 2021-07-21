@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "godbox.fullname" . }}
+  labels:
+    {{- include "godbox.labels" . | nindent 4 }}
+data:
+  API_MAX_PAYLOAD_SIZE: {{ required "env.API_MAX_PAYLOAD_SIZE is required!" .Values.env.API_MAX_PAYLOAD_SIZE | quote }}
+  ALLOW_PROFILING: {{ required "env.ALLOW_PROFILING is required!" .Values.env.ALLOW_PROFILING | quote }}
+  MAX_RUN_TIME_LIMIT: {{ required "env.MAX_RUN_TIME_LIMIT is required!" .Values.env.MAX_RUN_TIME_LIMIT | quote }}
+  MAX_EXTRA_TIME_LIMIT: {{ required "env.MAX_EXTRA_TIME_LIMIT is required!" .Values.env.MAX_EXTRA_TIME_LIMIT | quote }}
+  MAX_WALL_TIME_LIMIT: {{ required "env.MAX_WALL_TIME_LIMIT is required!" .Values.env.MAX_WALL_TIME_LIMIT | quote }}
+  MAX_STACK_SIZE_LIMIT: {{ required "env.MAX_STACK_SIZE_LIMIT is required!" .Values.env.MAX_STACK_SIZE_LIMIT | quote }}
+  MAX_PROCESS_COUNT_LIMIT: {{ required "env.MAX_PROCESS_COUNT_LIMIT is required!" .Values.env.MAX_PROCESS_COUNT_LIMIT | quote }}
+  MAX_MEMORY_LIMIT: {{ required "env.MAX_MEMORY_LIMIT is required!" .Values.env.MAX_MEMORY_LIMIT | quote }}
+  MAX_STORAGE_LIMIT: {{ required "env.MAX_STORAGE_LIMIT is required!" .Values.env.MAX_STORAGE_LIMIT | quote }}
